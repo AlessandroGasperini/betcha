@@ -1,0 +1,27 @@
+.navBarContainer {
+    background-color: #333334;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 3vh;
+}
+
+.hamburger {
+    width: 5vh;
+    margin-right: 2vh;
+}
+
+.euroLogo {
+    width: 14vh;
+}
+
+.profileImg {
+    width: 7vh;
+    height: 7vh;
+    border-radius: 50%;
+}
+
+.menu img {
+    margin-left: 2vh;
+    width: 3vh;
+}

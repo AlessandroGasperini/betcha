@@ -1,0 +1,28 @@
+.arenaContainer {
+    position: fixed;
+    top: 0;
+    background-color: #494949;
+    color: aliceblue;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.nextGameContainer {
+    width: 100%;
+    height: 100%;
+    margin: 15% 0;
+    text-align: center;
+}
+
+.flags {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flags img {
+    width: 10vh;
+    height: 10vh;
+    border-radius: 25%;
+}

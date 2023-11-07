@@ -1,0 +1,135 @@
+.nextBtnsContainer {
+    margin-bottom: 4vh;
+    margin-top: 10vh;
+    position: fixed;
+    bottom: 0;
+    width: 100%
+}
+
+.nextBtnsContainerFull {
+    margin-bottom: 4vh;
+    margin-top: 10vh;
+    width: 100%
+}
+
+.nextBtns {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nextBtns button {
+    min-width: 16vh;
+}
+
+.overViewImg {
+    margin: 0 1vh;
+}
+
+.score {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 12vh 5vh 12vh;
+}
+
+.betTitle {
+    text-align: center;
+    margin: 0;
+}
+
+.addScore {
+    display: flex;
+}
+
+.adding {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 12vh;
+}
+
+.plusAndMinus {
+    display: inline-grid;
+    gap: 3vh;
+}
+
+.doneBetBtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 15vh;
+}
+
+.semiList {
+    height: 30vh;
+    overflow: scroll;
+    margin-top: 4vh;
+}
+
+.semiSearch {
+    display: flex;
+    justify-content: center;
+}
+
+.semiListP {
+    text-align: center;
+}
+
+.semiDoneBtn {
+    margin-top: 4vh;
+    display: flex;
+    justify-content: center;
+}
+
+.pickedSemis {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2vh;
+}
+
+.donePickedSemis {
+    display: grid;
+    margin-top: 5vh;
+    text-align: center;
+    font-size: 1rem;
+    font-family: monospace;
+}
+
+.pickedSemis h3 {
+    font-size: 13px;
+}
+
+.removePickedSemi {
+    display: flex;
+    justify-content: center;
+}
+
+.allBetOverView {
+    text-align: center;
+}
+
+.groupWNum {
+    text-align: center;
+}
+
+.inputsGruprWin {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3vh;
+}
+
+.doneGropuWin {
+    display: flex;
+    justify-content: space-between;
+}
+
+.doneGropuWin h3 {
+    margin: 0 1vh;
+}
+
+.groupWinners {
+    margin: 5vh 3vh;
+    padding: 1vh;
+    border: 1px black solid;
+    border-radius: 13px;
+}

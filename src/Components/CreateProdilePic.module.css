@@ -1,0 +1,43 @@
+.profilePic {
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+}
+
+input[type="file"] {
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 15px;
+    margin: 0;
+    padding: 9px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    -webkit-appearance: none;
+    z-index: 2;
+    color: white;
+
+}
+
+input[type="file"]:after {
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 11;
+
+}
+
+input[type="file"]::-webkit-file-upload-button {
+    font: inherit;
+    padding: 0;
+    position: relative;
+    border: none;
+    text-align: left;
+    position: relative;
+    z-index: 100;
+    -webkit-appearance: none;
+}

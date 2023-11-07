@@ -1,0 +1,41 @@
+.imgCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3vh 0 0 0;
+}
+
+.img {
+    width: 40%;
+    height: 60%;
+    margin-left: 4vh;
+}
+
+.profileCont h1 {
+    text-align: center;
+}
+
+.profileCont section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 3vh 0;
+}
+
+.profileCont h3 {
+    text-align: center;
+}
+
+.editIcon {
+    margin-left: 4vh;
+}
+
+.input {
+    text-align: center;
+    margin: 2vh auto;
+
+}
+
+.profileCont label {
+    text-align: center;
+}

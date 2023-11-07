@@ -1,0 +1,24 @@
+.modalContainer {
+    position: fixed;
+    top: 0;
+    background-color: #090a0aeb;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.modalContainer article article {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    margin-bottom: 8vh;
+}

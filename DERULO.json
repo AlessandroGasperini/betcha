@@ -1,0 +1,22 @@
+[
+
+    {
+        "id": 2,
+        "category": "groupStage",
+        "title": "Sverige - Italien",
+        "team1": {
+            "team": "sverige",
+            "score": 0
+        },
+        "team2": {
+            "team": "italien",
+            "score": 0
+        },
+        "result": "",
+        "totalGoals": 0,
+        "redCards": 0,
+        "date": "25e Juli 19:30",
+        "UTC": "Tue Jul 25 2023 17:30",
+        "done": false
+    }
+]
